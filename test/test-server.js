@@ -53,6 +53,9 @@ describe('GET /', function() {
       });
   });
 
+
+  
+
   describe('POST /event', function() {
     it('adds an event', function(done) {
       request(app)
